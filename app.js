@@ -27,20 +27,22 @@ $(document).ready(function(){
 			'<button class="delete">delete</button>' +
 			'<button class="change">change</button>' +
 			// Additionally, there should be text that provides a number. 
-			'<span>' + genRowCount + '</span>' +
+			//'<span>' + genRowCount + '</span>' +
 			'</div>');
 
 		});
 
+
 		$('#container').on('click', '.delete', function() {
 			$(this).parent().remove();
-			console.log('working');
+			//console.log('working');
 	});
 		$('#container').on('click', '.change', function() {
 			$(this).parent().toggleClass('yellow', 'red');
-			console.log('working');
+			//console.log('working');
 	});
 		
 
 });
+
 
