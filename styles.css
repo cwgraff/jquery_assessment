@@ -1,0 +1,15 @@
+button {
+	margin: 8px;
+	padding: 4px;
+}
+span {
+	margin-left: 12px;
+}
+.yellow {
+	margin: 4px;
+	background-color: yellow;
+}
+.red {
+	margin: 4px;
+	background-color: red;
+}
